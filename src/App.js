@@ -6,7 +6,7 @@ import RecipesComponent from "./Recipes.Component";
 function App() {
   const [mySearch, setMySearch] = useState("");
   const [myRecipes, setMyRecipes] = useState([]);
-  const [wordSubmitted, setWordSubmitted] = useState("chicken");
+  const [wordSubmitted, setWordSubmitted] = useState("potato");
 
   useEffect(() => {
     const getRecipe = async () => {
