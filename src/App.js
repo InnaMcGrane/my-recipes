@@ -32,20 +32,20 @@ function App() {
     <div className="App">
       <div className="container">
         <video autoPlay muted loop>
-          <source src={video} type="video/mp4" />
+          <source src={video} type="video/mp4" alt="video"/>
         </video>
         <h1>Find A Recipe</h1>
       </div>
 
       <div className="container">
         <form onSubmit={finalSearch}>
-          <input className="search" onChange={myRecipeSearch} value={mySearch} />
+          <input className="search" onChange={myRecipeSearch} value={mySearch} alt="video"/>
         </form>
       </div>
 
       <div className="container">
         <button onClick={finalSearch}>
-          <img src="https://img.icons8.com/fluency/48/000000/fry.png " alt="icon" />
+          <img src="https://img.icons8.com/fluency/48/000000/fry.png " alt="icon"/>
         </button>
       </div>
 
