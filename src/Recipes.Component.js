@@ -12,7 +12,7 @@ function RecipesComponent({ label, image, calories,ingredients }) {
       <ul className="container list">
         {ingredients.map((ingredient,index)=>(
             <li key={index}>
-                <img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/64/000000/external-check-multimedia-kiranshastry-gradient-kiranshastry.png "className="icon"/>
+                <img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/64/000000/external-check-multimedia-kiranshastry-gradient-kiranshastry.png "className="icon" alt="icon"/>
                 {ingredient}
                 </li>
         ))}
